@@ -10,6 +10,11 @@ This project is a hardware to software voice recognition system. It samples audi
 - **Model Training (Pytorch)**: Processes audio datasets into Specotrgrams and trains a 2D CNN.
 - **Live Inference (Python)**: Listens to the serial port, generates a spectrogram of the live audio, and predicts the spoken word.
 
+## **CORRESPONDING FILES FOR EACH PART OF THE ARCHITECTURE**
+- **Microcontroller (C)**: you can find this under file **Voice_Recognition**. To find the .c and .h files (bulk of code):
+  - **main.c**: Voice_Recognition->Core->Src->main.c
+  - **main.h**: Voice_Recognition->Core->Inc->main.h
+
 ### **Hardware and Data Acquisition (MCU)**
 
 Written in C for the STM32F4. Handles strict real time constraints that come from audio processing.
