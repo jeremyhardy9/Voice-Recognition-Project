@@ -99,13 +99,6 @@ const int16_t LUT_i3[256] = {
     -80, -8, -24, 48, -38, 34, 18, 90, -50, 22, 6, 78, -8, 64, 48, 120
 };
 
-/*
- * ACCUMULATE ALL PCM
- * */
-
-
-
-
 int main(void) {
 	SPI_Enable();
 	USART_Enable();
@@ -114,8 +107,6 @@ int main(void) {
 	GPIOB_Enable();
 	DMA1_Enable();
 	DMA2_Enable();
-
-//	uint32_t apb1_freq = HAL_RCC_GetPCLK2Freq();
 
 	while(1) {
 		if (start_sampling) {
