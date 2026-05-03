@@ -14,6 +14,8 @@ This project is a hardware to software voice recognition system. It samples audi
 - **Microcontroller (C)**: you can find this under file **Voice_Recognition**. To find the .c and .h files (bulk of code):
   - **main.c**: Voice_Recognition->Core->Src->main.c
   - **main.h**: Voice_Recognition->Core->Inc->main.h
+- **Model Training (Pytorch)**: voice_recognition.ipynb
+- **Live Inference (Python)**: Prediction.py
 
 ### **Hardware and Data Acquisition (MCU)**
 
